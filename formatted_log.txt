@@ -1,0 +1,4 @@
+2025-06-06T12:44:22.305220-0600 - __main__ - INFO - <module> - Python version: 3.13.3
+2025-06-06T12:44:22.305368-0600 - __main__ - DEBUG - <module> - Python version: 3.13.3
+2025-06-06T12:44:22.306800-0600 - __main__ - INFO - <module> - PyMongo version: 4.13.0
+2025-06-06T12:44:22.306879-0600 - __main__ - DEBUG - <module> - PyMongo version: 4.13.0
