@@ -2,3 +2,45 @@
 2025-06-06T12:44:22.305368-0600 - __main__ - DEBUG - <module> - Python version: 3.13.3
 2025-06-06T12:44:22.306800-0600 - __main__ - INFO - <module> - PyMongo version: 4.13.0
 2025-06-06T12:44:22.306879-0600 - __main__ - DEBUG - <module> - PyMongo version: 4.13.0
+2025-06-06T14:15:00.566769-0600 - __main__ - INFO - <module> - Python version: 3.13.3
+2025-06-06T14:15:00.566958-0600 - __main__ - DEBUG - <module> - Python version: 3.13.3
+2025-06-06T14:15:00.569908-0600 - __main__ - INFO - <module> - PyMongo version: 4.13.0
+2025-06-06T14:15:00.571536-0600 - __main__ - DEBUG - <module> - PyMongo version: 4.13.0
+2025-06-06T14:16:23.930335-0600 - __main__ - INFO - <module> - Python version: 3.13.3
+2025-06-06T14:16:23.930493-0600 - __main__ - DEBUG - <module> - Python version: 3.13.3
+2025-06-06T14:16:23.931643-0600 - __main__ - INFO - <module> - PyMongo version: 4.13.0
+2025-06-06T14:16:23.931713-0600 - __main__ - DEBUG - <module> - PyMongo version: 4.13.0
+2025-06-06T14:16:51.018210-0600 - __main__ - INFO - <module> - Python version: 3.13.3
+2025-06-06T14:16:51.018347-0600 - __main__ - DEBUG - <module> - Python version: 3.13.3
+2025-06-06T14:16:51.019525-0600 - __main__ - INFO - <module> - PyMongo version: 4.13.0
+2025-06-06T14:16:51.019590-0600 - __main__ - DEBUG - <module> - PyMongo version: 4.13.0
+2025-06-06T14:16:51.020679-0600 - __main__ - INFO - get_connection_string - conn_string='mongodb+srv://superuser:Ha9LFgShxPo7@fpm-learning-cluster-01.bmk1kup.mongodb.net/?retryWrites=true&w=majority&authSource=admin'
+2025-06-06T14:16:51.020740-0600 - __main__ - DEBUG - get_connection_string - conn_string='mongodb+srv://superuser:Ha9LFgShxPo7@fpm-learning-cluster-01.bmk1kup.mongodb.net/?retryWrites=true&w=majority&authSource=admin'
+2025-06-06T14:18:18.354145-0600 - __main__ - INFO - <module> - Python version: 3.13.3
+2025-06-06T14:18:18.354284-0600 - __main__ - DEBUG - <module> - Python version: 3.13.3
+2025-06-06T14:18:18.355645-0600 - __main__ - INFO - <module> - PyMongo version: 4.13.0
+2025-06-06T14:18:18.355710-0600 - __main__ - DEBUG - <module> - PyMongo version: 4.13.0
+2025-06-06T14:18:18.356804-0600 - __main__ - INFO - get_connection_string - conn_string='mongodb+srv://superuser:Ha9LFgShxPo7@fpm-learning-cluster-01.bmk1kup.mongodb.net/?retryWrites=true&w=majority&authSource=admin'
+2025-06-06T14:18:18.356886-0600 - __main__ - DEBUG - get_connection_string - conn_string='mongodb+srv://superuser:Ha9LFgShxPo7@fpm-learning-cluster-01.bmk1kup.mongodb.net/?retryWrites=true&w=majority&authSource=admin'
+2025-06-06T14:21:52.251088-0600 - __main__ - INFO - <module> - Python version: 3.13.3
+2025-06-06T14:21:52.251222-0600 - __main__ - DEBUG - <module> - Python version: 3.13.3
+2025-06-06T14:21:52.252504-0600 - __main__ - INFO - <module> - PyMongo version: 4.13.0
+2025-06-06T14:21:52.252571-0600 - __main__ - DEBUG - <module> - PyMongo version: 4.13.0
+2025-06-06T14:21:52.253628-0600 - __main__ - INFO - get_connection_string - conn_string='mongodb+srv://superuser:Ha9LFgShxPo7@fpm-learning-cluster-01.bmk1kup.mongodb.net/?retryWrites=true&w=majority&authSource=admin'
+2025-06-06T14:21:52.253687-0600 - __main__ - DEBUG - get_connection_string - conn_string='mongodb+srv://superuser:Ha9LFgShxPo7@fpm-learning-cluster-01.bmk1kup.mongodb.net/?retryWrites=true&w=majority&authSource=admin'
+2025-06-06T14:21:52.776696-0600 - logging_utility - INFO - log_info_and_debug - Available Databases:
+2025-06-06T14:21:52.776829-0600 - logging_utility - DEBUG - log_info_and_debug - Available Databases:
+2025-06-06T14:21:52.776897-0600 - logging_utility - INFO - log_info_and_debug - 	narwhal_database
+2025-06-06T14:21:52.776935-0600 - logging_utility - DEBUG - log_info_and_debug - 	narwhal_database
+2025-06-06T14:21:52.776979-0600 - logging_utility - INFO - log_info_and_debug - 	sample_analytics
+2025-06-06T14:21:52.777010-0600 - logging_utility - DEBUG - log_info_and_debug - 	sample_analytics
+2025-06-06T14:21:52.777047-0600 - logging_utility - INFO - log_info_and_debug - 	sample_geospatial
+2025-06-06T14:21:52.777123-0600 - logging_utility - DEBUG - log_info_and_debug - 	sample_geospatial
+2025-06-06T14:21:52.777166-0600 - logging_utility - INFO - log_info_and_debug - 	sample_supplies
+2025-06-06T14:21:52.777193-0600 - logging_utility - DEBUG - log_info_and_debug - 	sample_supplies
+2025-06-06T14:21:52.777226-0600 - logging_utility - INFO - log_info_and_debug - 	sample_training
+2025-06-06T14:21:52.777252-0600 - logging_utility - DEBUG - log_info_and_debug - 	sample_training
+2025-06-06T14:21:52.777283-0600 - logging_utility - INFO - log_info_and_debug - 	admin
+2025-06-06T14:21:52.777310-0600 - logging_utility - DEBUG - log_info_and_debug - 	admin
+2025-06-06T14:21:52.777343-0600 - logging_utility - INFO - log_info_and_debug - 	local
+2025-06-06T14:21:52.777368-0600 - logging_utility - DEBUG - log_info_and_debug - 	local
