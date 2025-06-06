@@ -1,14 +1,12 @@
 import sys
 from importlib.metadata import version
-
 #
 from pymongo import MongoClient
-
 #
-from logging_utility import LoggingUtility
+from logging_utility import LoggingUtility as lu
 from program_settings import ProgramSettings
 
-logger = LoggingUtility.start_logging()
+logger = lu.start_logging()
 
 
 def get_python_version() -> str:
@@ -54,10 +52,10 @@ def display_available_databases() -> None:
 
     databases: list[str] = client.list_database_names()
     msg = "Available Databases:"
-    LoggingUtility.log_info_and_debug(msg)
+    lu.log_info_and_debug(msg)
     for database in databases:
         msg = f'\t{database}'
-        LoggingUtility.log_info_and_debug(msg)
+        lu.log_info_and_debug(msg)
 
 
 def main():
