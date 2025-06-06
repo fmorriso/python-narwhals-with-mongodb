@@ -202,3 +202,4 @@ cython_debug/
 
 log*.txt
 /formatted_log.txt
+formatted_log.txt
