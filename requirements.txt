@@ -1,2 +1,2 @@
-narwhals~=1.41.1
+narwhals~=1.42.0
 pymongo~=4.13.0

@@ -201,5 +201,5 @@ cython_debug/
 .idea/inspectionProfiles/profiles_settings.xml
 
 /*log*.txt
-/formatted_log.txt
-formatted_log.txt
+log.txt
+/log.txt

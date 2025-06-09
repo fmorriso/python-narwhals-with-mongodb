@@ -1,12 +1,12 @@
 import sys
 from importlib.metadata import version
+
 #
 from pymongo import MongoClient
-#
-from logging_utility import LoggingUtility as lu
-from program_settings import ProgramSettings
 
-logger = lu.start_logging()
+#
+from logging_utility import LoggingUtility as LU
+from program_settings import ProgramSettings
 
 
 def get_python_version() -> str:
@@ -29,8 +29,7 @@ def get_connection_string() -> str:
     conn_string = f'mongodb+srv://{uid}:{pwd}@{template}'
 
     msg = f'{conn_string=}'
-    logger.info(msg)
-    logger.debug(msg)
+    LU.debug(msg)
 
     return conn_string
 
@@ -52,10 +51,10 @@ def display_available_databases() -> None:
 
     databases: list[str] = client.list_database_names()
     msg = "Available Databases:"
-    lu.log_info_and_debug(msg)
+    LU.log_info_and_debug(msg)
     for database in databases:
         msg = f'\t{database}'
-        lu.log_info_and_debug(msg)
+        LU.log_info_and_debug(msg)
 
 
 def main():
@@ -63,12 +62,15 @@ def main():
 
 
 if __name__ == '__main__':
+    LU.start_logging()
+
     msg = f'Python version: {get_python_version()}'
-    logger.info(msg)
-    logger.debug(msg)
+    LU.log_info_and_debug(msg)
 
     msg = f'PyMongo version: {get_package_version("PyMongo")}'
-    logger.info(msg)
-    logger.debug(msg)
+    LU.log_info_and_debug(msg)
+
+    msg = f'narwhals version: {get_package_version("narwhals")}'
+    LU.log_info_and_debug(msg)
 
     main()
